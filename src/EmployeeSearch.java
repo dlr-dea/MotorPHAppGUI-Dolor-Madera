@@ -38,7 +38,7 @@ public class EmployeeSearch extends JPanel {
                     EmployeeFileReader employeeFileReader = new EmployeeFileReader();
                     ArrayList<Employee> employees = employeeFileReader.getEmployees();
                     for (Employee emp : employees) {
-                        String id = String.format("%.0f", emp.getId());
+                        String id = String.valueOf(emp.getId());
                         if (id.matches(strEmpNo)) {
                             noMatchFound = false;
 

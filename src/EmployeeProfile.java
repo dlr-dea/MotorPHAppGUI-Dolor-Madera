@@ -52,8 +52,8 @@ public class EmployeeProfile extends JPanel{
         lblFirstName = new JLabel("First Name");
         lblLastName = new JLabel("Last Name");
 
-        double id = employee.getId();
-        String strId = String.format("%.0f", id);
+        Integer id = employee.getId();
+        String strId = String.valueOf(id);
 
         txtFirstName = new JTextField(employee.getFirstName());
         txtLastName = new JTextField(employee.getLastName());
@@ -120,9 +120,9 @@ public class EmployeeProfile extends JPanel{
         salaryPanel.add(this.createLabel("Hourly Rate"));
         salaryPanel.add(this.createTextField(String.valueOf(employee.getHourlyRate())));
 
-
+        
         JPanel panel = this.createPanel("Employee No. "+ strId, new GridLayout(0,1, 0, 10));
-
+      
         panel.add(panelPersonal);
         panel.add(employmentPanel);
         panel.add(salaryPanel);
@@ -136,7 +136,7 @@ public class EmployeeProfile extends JPanel{
         panel.setBorder(border);
         return panel;
     }
-
+    
     private JLabel createLabel(String label) {
         return new JLabel(label);
     }

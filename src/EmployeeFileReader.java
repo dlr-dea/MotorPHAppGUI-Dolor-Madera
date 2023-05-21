@@ -2,13 +2,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Scanner;
-import java.util.regex.Pattern;
 
 public class EmployeeFileReader {
 
@@ -64,8 +58,7 @@ public class EmployeeFileReader {
                         Double.parseDouble(this.cleanStrValue(values[15])),
                         Double.parseDouble(this.cleanStrValue(values[16])),
                         Double.parseDouble(this.cleanStrValue(values[17])),
-                        Double.parseDouble(this.cleanStrValue(values[18]))
-                );
+                        Double.parseDouble(this.cleanStrValue(values[18])));
 
                 this.addEmployee(employee);
             }

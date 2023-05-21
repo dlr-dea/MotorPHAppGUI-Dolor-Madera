@@ -84,7 +84,11 @@ public class Employee {
         this.hourlyRate = hourlyRate;
     }
 
-    public double getId() {
+    public String getName() {
+        return this.firstName + " " + this.lastName;
+    }
+
+    public Integer getId() {
         return id;
     }
 
@@ -210,6 +214,25 @@ public class Employee {
 
     public double getGrossSemiMonthlyRate() {
         return grossSemiMonthlyRate;
+    }
+
+    public double getWeeklyGrossPay() {
+        return this.hourlyRate * 40;
+    }
+
+    public double getWeeklyAllowance() {
+        return ((riceSubsidy / 21) * 5) +
+                ((phoneAllowance / 21) * 5) +
+                ((clothingAllowance / 21) * 5);
+    }
+
+    public double getWeeklyDeductions() {
+        // 21 / 4wks = 5.75 - weekly
+        double sss = 581.30 / 5.75;
+        double philhealh = 550 / 5.75;
+        double pagibig = 100 / 5.75;
+
+        return sss + philhealh + pagibig;
     }
 
     public void setGrossSemiMonthlyRate(double grossSemiMonthlyRate) {
