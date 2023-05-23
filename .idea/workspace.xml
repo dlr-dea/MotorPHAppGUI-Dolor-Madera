@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eafdc7b-555d-484b-b764-cd650b532500" name="Changes" comment="Milestone 1 Submission Final&#10;With error and employee search">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployeeFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeFileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployeeProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployeeSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployeesList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeesList.java" afterDir="false" />
-    </list>
+    <list default="true" id="1eafdc7b-555d-484b-b764-cd650b532500" name="Changes" comment="Milestone 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,29 +17,12 @@
       </list>
     </option>
   </component>
-  <component name="Git.Pull.Settings">
-    <option name="OPTIONS">
-      <set>
-        <option value="REBASE" />
-      </set>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Q3lQq3AFfgR0Se9w1lqm6cyKY9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -54,12 +30,12 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -97,28 +73,7 @@
       <option name="project" value="LOCAL" />
       <updated>1684679645118</updated>
     </task>
-    <task id="LOCAL-00003" summary="Milestone 1 Submission Final&#10;With error and employee search">
-      <created>1684679730425</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1684679730425</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Milestone 1 Submission Final&#10;With error and employee search">
-      <created>1684679796883</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1684679796883</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Milestone 1 Submission Final&#10;With error and employee search">
-      <created>1684680043640</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1684680043641</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,7 +90,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Milestone 1" />
-    <MESSAGE value="Milestone 1 Submission Final&#10;With error and employee search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Milestone 1 Submission Final&#10;With error and employee search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Milestone 1" />
   </component>
 </project>
