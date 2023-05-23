@@ -247,4 +247,28 @@ public class Employee {
         this.hourlyRate = hourlyRate;
     }
 
+    public String getCSVValue() {
+        return "\"" + String.join("\",\"",
+            String.valueOf(this.getId()),
+            this.getLastName(),
+            this.getFirstName(),
+            this.getBirthdate(),
+            this.getAddress(),
+            this.getPhoneNumber(),
+            this.getSssNo(),
+            this.getPhilhealthNo(),
+            this.getTin(),
+            this.getPagIbigNo(),
+            this.getStatus(),
+            this.getPosition(),
+            this.getSuperVisor(),
+            String.valueOf(this.getBasicSalary()),
+            String.valueOf(this.getRiceSubsidy()),
+            String.valueOf(this.getPhoneAllowance()),
+            String.valueOf(this.getClothingAllowance()),
+            String.valueOf(this.getGrossSemiMonthlyRate()),
+            String.valueOf(this.getHourlyRate()) 
+        ) + "\"";
+    }
+
 }
