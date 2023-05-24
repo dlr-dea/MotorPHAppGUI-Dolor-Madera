@@ -18,7 +18,7 @@ public class PasswordPrompt extends JFrame {
         setSize(300, 180);
         this.tries = 0;
 
-        lblUsername = new JLabel("Username:");
+        lblUsername = new JLabel("Username or Employee ID:");
         lblPassword = new JLabel("Password:");
 
         tfUsername = new JTextField(20);
@@ -66,8 +66,18 @@ public class PasswordPrompt extends JFrame {
                     PasswordPrompt.this.setVisible(false);
 
                 } else {
-                    JOptionPane.showMessageDialog(PasswordPrompt.this, "Incorrect username/password credentials",
-                            "Error", JOptionPane.ERROR_MESSAGE);
+
+                    AccountFileReader accountFileReader = new AccountFileReader();
+                    if (accountFileReader.isAccountPasswordCombinationCorrect(username, password)) {
+                        EmployeeLeave employeeLeave = new EmployeeLeave(Integer.parseInt(username));
+                        employeeLeave.setVisible(true);
+                        PasswordPrompt.this.setVisible(false);
+                    } else {
+
+                        JOptionPane.showMessageDialog(PasswordPrompt.this, "Incorrect username/password credentials",
+                                "Error", JOptionPane.ERROR_MESSAGE);
+                    }
+
                 }
 
             }
