@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eafdc7b-555d-484b-b764-cd650b532500" name="Changes" comment="With Delete and Update of Employees">
+    <list default="true" id="1eafdc7b-555d-484b-b764-cd650b532500" name="Changes" comment="Terminal Assessment">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_21_23,_10_39_pm_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_21_23__10_39_pm__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PasswordPrompt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PasswordPrompt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/employees.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/employees.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684970459696</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Terminal Assessment">
+      <created>1685168515389</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685168515389</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +133,7 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="Milestone 2&#10;View all employees&#10;Select and view data including salary and timesheet" />
     <MESSAGE value="With Delete and Update of Employees" />
-    <option name="LAST_COMMIT_MESSAGE" value="With Delete and Update of Employees" />
+    <MESSAGE value="Terminal Assessment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Terminal Assessment" />
   </component>
 </project>
